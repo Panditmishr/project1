@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="path_lab.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+        <a class="active" href="#">PATIENTS</a>
+        <a class="nav-bar" href="#">DOCTORS</a>
+        <a class="nav-bar" href="#">BUSINESS PARTNERS</a>
+        <a class="nav-bar" href="#">ABOUT US</a>
+        <a class="nav-bar" href="#">INVESTORS</a>
+        <a class="nav-bar" href="#">CONTACT US</a>
+    </div>
+    <div class="right">
+        <a href="/blog" target="_blank" class="link">BLOGS</a> | <a href="javascript:void(0)" class="link">FAQS</a>
+        </div>
+        <div class="right1">
+        <a class="active1" href="#"><img src="https://uat-cdn.drlallab.com/images/login.png" alt="Guest User Icon">WELCOME GUEST USER</a>
+    </div>
+</div>
+<div class="container1">
+    <div class="img"><img _ngcontent-serverapp-c96="" alt="Dr Lal PathLabs" src="https://uat-cdn.drlallab.com/2023-06/logo-header-2.webp"></div>
+    <div class="container2">
+        <ul class="box">
+            <li><a href="#"><span>Book a Test</span></a></li>
+            <li><a href="#"><span>Nearest Center</span></a></li>
+            <li><a href="#"><span>Download Report</span></a></li>
+            <li><a href="#"><span>Special Programs</span></a></li>
+            <li><a href="#"><span>Carrier</span></a></li>
+   
+        </ul>
+    </div>
+    <li _ngcontent-serverapp-c96="" class="nav-item location-txt"><img _ngcontent-serverapp-c96="" src="https://uat-cdn.drlallab.com/2022-12/location.png" alt="Location Icon"><a _ngcontent-serverapp-c96="" href="javascript:void(0)" class="nav-link" style="cursor: default;"><small _ngcontent-serverapp-c96="">delhi</small><div _ngcontent-serverapp-c96="" data-type="1" class="city header-city-m search-location"><div _ngcontent-serverapp-c96="" class="ng-autocomplete"><ng-autocomplete _ngcontent-serverapp-c96="" historylistmaxnumber="50" notfoundtext="Not found" debouncetime="700" class="ng-autocomplete location-input"><div class="autocomplete-container"><div class="input-container"><input type="text" autocomplete="off" placeholder="Search Location" class="ng-pristine ng-valid ng-touched"><!----><!----></div><div class="suggestions-container is-visible"><!----><ul><!----></ul></div><div class="suggestions-container is-hidden"><!----><ul><!----></ul></div><!----></div><!----></ng-autocomplete><!----><!----></div></div></a></li>
+            <li class="search-item">
+              <input type="text" placeholder="Search Test & Packages">
+            </li>
+            <li class="cart-item">
+              <a href="/home/cart">
+                <img src="https://uat-cdn.drlallab.com/2022-12/cart-plus.png" alt="Cart Icon">
+                <span class="cart-count">0</span>
+              </a>
+            </li>
+            <button _ngcontent-serverapp-c96="" class="arts"><a _ngcontent-serverapp-c96="" href="/create-abha-healthid-card" class="d-flex p-1"><img _ngcontent-serverapp-c96="" src="https://www.lalpathlabs.com/assets/images/catrlbtn.svg" alt="Cart Plus Icon"><div _ngcontent-serverapp-c96=""> Create/Link Your ABHA</div></a></button>
+          </ul>
+        </div>
+      </div>  
+</div>
+<div class="container3">
+    <img src="https://media.lalpathlabs.com/media/fever/Fever_Banner.webp" class="img2" alt="Doctor Banner">
+</div>
+<div class="container4">
+  <div class="container4-1">
+  <div class="item1">
+      <img class="img3" src="https://uat-cdn.drlallab.com/2021-08/Webp.net-resizeimage%20%282%29.png" alt="Nearest Centre Icon">
+      
+  </div>
+  <p class="text">Nearest Centre</p>
+  </div>
+  <div class="container4-1">
+  <div class="item2">
+      <img class="img3" src="https://uat-cdn.drlallab.com/2021-07/blue-bg-icon2.png" alt="Book a Test Icon">
+  </div>
+      <p class="text">Book a Test</p>
+  </div>
+  <div class="container4-1">
+  <div class="item3">
+      <img class="img3" src="https://media.lalpathlabs.com/media/test-menu.webp" alt="Test Menu">
+  </div>
+      <p class="text">Test Menu</p>
+  </div>
+  <div class="container4-1">
+  <div class="item4">
+      <img class="img3" src="https://uat-cdn.drlallab.com/2021-07/blue-bg-icon4_0.png" alt="Download Report Icon">
+  </div>
+      <p class="text">Download Report</p>
+  </div>
+  <div class="container4-1">
+  <div class="item5">
+      <img class="img3" src="https://uat-cdn.drlallab.com/2021-08/Webp.net-resizeimage%20%283%29.png" alt="Upload Prescription Icon">
+  </div>
+      <p class="text">Upload Prescription</p>
+  </div>
+</div>
+
+
+
+</div>
+</body>
+</html>
