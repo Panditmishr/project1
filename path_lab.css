@@ -1,0 +1,259 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%vw;
+    height: 100%vh;
+}
+.container {
+    width: 1359px;
+    height: 44px;
+    background-color: #fecc4e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    font-size: small;
+}
+.left {
+    display: flex;
+    align-items: center;
+    margin-left: 230px;
+   gap: 15px;
+}
+.active {
+    color: blue;
+    text-decoration: underline;
+}
+.active1 {
+    color: rgb(11, 88, 162);
+}
+.nav-bar {
+    text-decoration: none;
+    color: black;
+}
+.nav-bar:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: lighter;
+}
+.link {
+    font-size: smaller;
+    font-weight: lighter;
+}
+.right1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: lighter;
+    margin-right: 100px;
+}
+  
+.container1 {
+    width: 1359px;
+    height: 93.5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.img {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+
+}
+.container2 {
+    width: 435px;
+    height: 35.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    list-style-type: none;
+    display: flex;
+}
+li {
+    margin: 0px 7px 0px 7px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 13px; 
+
+}
+  .right-menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+ 
+  .search-item input {
+    padding: 5px;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.7);
+    width:140px
+  }
+  
+  
+  .menu .nav-item {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .menu .nav-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .search-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-menu .location-item {
+    margin-right: 20px;
+  }
+  
+  .search-menu .search-item input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-menu .cart-item {
+    position: relative;
+    margin-left: 20px;
+  }
+  
+  .search-menu .cart-item a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-count {
+    background: #0047ae;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
+.p-1 {
+  padding: .25rem !important;
+}
+.d-flex {
+  display: flex !important
+;
+}
+  
+.arts[_ngcontent-serverApp-c96] {
+  background: #0047ae;
+  border: #0047ae;
+  margin-left: 24px;
+  width: 220px;
+  padding: 4px;
+  border-radius: 3px;
+  padding-right: 9px;
+}
+.arts[_ngcontent-serverApp-c96] div[_ngcontent-serverApp-c96] {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  border-left: 1.5px solid #fff;
+  line-height: 18px;
+}
+.img2 {
+    width: 1359px;
+    height: 280.279px;
+}
+.container4 {
+    background-color: blue;
+    width: 1359px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+.container4-1 {
+  height: 132px;
+  width: 164px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1, .item2, .item3, .item4, .item5 {
+    background-color: white;
+    height: 87px;
+    width: 87px;
+    margin: 0px 10px 0px 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.item1:hover, .item2:hover, .item3:hover, .item4:hover, .item5:hover {
+    transform: scale(1.2); /* Scale up the items */
+    opacity: 1.0; /* Slightly reduce the opacity */
+}
+
+.img3 {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.item1:hover .img3, .item2:hover .img3, .item3:hover .img3, .item4:hover .img3, .item5:hover .img3 {
+    transform: scale(1.1); 
+    opacity: 1.0; 
+}
+.text {
+  margin-top: 20px; 
+  font-size: 18px;
+  color: darkblue;
+}
+.text {
+ color: white;
+ 
+}
+
+
+ @media (max-width: 768px) {
+    .top-circle {
+      flex: 1 1 45%; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .top-circle {
+      flex: 1 1 100%;
+    }
+  }
+  
+  
+
+
