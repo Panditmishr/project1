@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello world!</h1>
+    <div class="container">
+        <h1>Emojee - Emoji 🔍 Application</h1>
+        <div class="outer">
+            <div class="button-list">
+                <button class="item">All</button>
+                <button class="item">Face</button>
+                <button class="item">Heart</button>
+                <button class="item">Book</button>
+                <button class="item">Hand</button>
+                <button class="item">Sports</button>
+                <button class="item">Flag</button>
+            </div>
+            <input type="search" id="search" name="search" placeholder="🔍 Search emoji">
+        </div>
+        <div id="emoji-list"></div>
+    </div>
+    <script src ="main.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
