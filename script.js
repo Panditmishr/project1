@@ -2,9 +2,9 @@ const buttonCategory = document.querySelectorAll('.item');
 const search = document.querySelector('#search');
 const list_items = document.querySelector('#emoji-list');
 
-const displayEmoji = () => {
-    
-emojiList.forEach((emojis) => {
+const displayEmoji = (item) => {
+    list_items.innerHTML = '';
+item.forEach((emojis) => {
 const div = document.createElement('div');
 div.classList.add('emoji-container');
 const span = document.createElement('span');
@@ -43,5 +43,8 @@ buttonCategory.forEach((button) => {
        filterEmoji(category);
     })
    
+})
+search.addEventListener('input', (e) => {
+    filterEmoji(e.target.value);
 })
 displayEmoji(emojiList);
